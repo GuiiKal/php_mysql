@@ -3,8 +3,6 @@ require 'src/conection-bd.php';
 require 'src/Modelo/Produto.php';
 require 'src/Repositorio/ProdutoRepositorio.php';
 
-// Consultas SQL
-
 $produtosRepositorio = new ProdutoRepositorio($pdo);
 $dadosCafe = $produtosRepositorio->opcoesCafe();
 $dadosAlmoco = $produtosRepositorio->opcoesAlmoco();
