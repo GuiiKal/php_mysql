@@ -4,5 +4,8 @@
         "psr-4": {
             "PHP\\MYSQL\\": "src/"
         }
+    },
+    "require": {
+        "dompdf/dompdf": "^3.0"
     }
 }
