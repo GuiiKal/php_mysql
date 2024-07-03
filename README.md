@@ -24,7 +24,7 @@ Siga os passos abaixo para configurar e rodar o projeto localmente:
     - Crie um banco de dados no MySQL.
     - Importe o arquivo `mysql.sql` que está no repositório para criar as tabelas necessárias.
 
-4. Verifique o arquivo `conection.php` para garantir que as informações de conexão com o banco de dados estão corretas:
+4. Verifique o arquivo `conection-bd.php` para garantir que as informações de conexão com o banco de dados estão corretas:
 
 5. Inicie o servidor PHP:
     ```sh
